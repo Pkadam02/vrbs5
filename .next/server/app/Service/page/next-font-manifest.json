@@ -1,0 +1,11 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/src/app/Service/page": [
+      "static/media/47fe1b7cd6e6ed85-s.p.855a563b.woff2",
+      "static/media/088fdc4df89f17a3-s.p.a86061c9.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

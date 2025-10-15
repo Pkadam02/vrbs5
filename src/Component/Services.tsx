@@ -119,7 +119,7 @@ export default function Services() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-10">
           {/* Card 1 */}
          <Link href="/Service#s1">
-            <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card">
+            <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card min-h-[460px]">
               <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
                 <img
                   src="/demand-generation.png"
@@ -130,7 +130,7 @@ export default function Services() {
               <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-2 sm:mb-3">
                 Demand Generation
               </h3>
-              <p className="text-gray-600 text-sm sm:text-base">
+              <p className="text-gray-600 text-sm sm:text-base overflow-y-auto max-h-[120px]">
                 Using the AIDA methodology (Attention, Interest, Desire, Action),
                 we ensure every campaign captures attention, nurtures interest,
                 builds desire, and drives measurable action.
@@ -138,7 +138,7 @@ export default function Services() {
             </div>
           </Link>
           <Link href="/Service#s2">
-            <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card">
+            <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card min-h-[460px]">
               <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
                 <img
                   src="/content-syndication.png"
@@ -149,14 +149,14 @@ export default function Services() {
               <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-2 sm:mb-3">
                 Content Syndication
               </h3>
-              <p className="text-gray-600 text-sm sm:text-base">
+              <p className="text-gray-600 text-sm sm:text-base overflow-y-auto max-h-[120px]">
                 We amplify your content’s reach by distributing it across trusted
                 industry platforms, networks, and targeted databases.
               </p>
             </div>
           </Link>
           <Link href="/Service#s3">
-            <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card">
+            <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card min-h-[460px]">
               <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
                 <img
                   src="/buyer-intent.png"
@@ -167,7 +167,7 @@ export default function Services() {
               <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-2 sm:mb-3">
                 Buyer Intent Leads
               </h3>
-              <p className="text-gray-600 text-sm sm:text-base">
+              <p className="text-gray-600 text-sm sm:text-base overflow-y-auto max-h-[120px]">
                 Through our proprietary publishing network, we gather verified
                 first-party intent data by tracking clicks, downloads, and other
                 behavioral signals that indicate buying readiness.
@@ -175,7 +175,7 @@ export default function Services() {
             </div>
           </Link>
           <Link href="/Service#s4">
-            <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card">
+            <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card min-h-[460px]">
               <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
                 <img
                   src="webinar.png"
@@ -186,7 +186,7 @@ export default function Services() {
               <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-2 sm:mb-3">
                 Event & Webinar Registrations
               </h3>
-              <p className="text-gray-600 text-sm sm:text-base">
+              <p className="text-gray-600 text-sm sm:text-base overflow-y-auto max-h-[120px]">
                 We manage end-to-end attendee acquisition for your events and
                 webinars, targeting professionals most likely to benefit from your
                 solutions.
@@ -196,7 +196,7 @@ export default function Services() {
 
           {/* Card 5 */}
           <Link href="/Service#s5">
-            <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card">
+            <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card min-h-[460px]">
               <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
                 <img
                   src="/abm.png"
@@ -207,7 +207,7 @@ export default function Services() {
               <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-2 sm:mb-3">
                 Account-Based Marketing (ABM)
               </h3>
-              <p className="text-gray-600 text-sm sm:text-base">
+              <p className="text-gray-600 text-sm sm:text-base overflow-y-auto max-h-[120px]">
                 We develop personalized, high-touch campaigns aimed at your most
                 valuable target accounts, aligning sales and marketing efforts for
                 maximum impact.
@@ -217,7 +217,7 @@ export default function Services() {
 
           {/* Card 6 */}
           <Link href="/Service#s6">
-            <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card">
+            <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card min-h-[460px]">
               <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
                 <img
                   src="software-dev.png"
@@ -228,7 +228,7 @@ export default function Services() {
               <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-2 sm:mb-3">
                 Software Development
               </h3>
-              <p className="text-gray-600 text-sm sm:text-base">
+              <p className="text-gray-600 text-sm sm:text-base overflow-y-auto max-h-[120px]">
                 Our team delivers custom, scalable, and secure software solutions
                 — from modern web apps to enterprise systems that optimize your
                 workflows and enable digital transformation.
@@ -260,7 +260,7 @@ export default function Services() {
           <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-10 extra-service-section">
             {/* Digital Marketing */}
            <Link href="/Service#s7">
-              <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-6 text-center service-card extra-service-card">
+              <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-6 text-center service-card extra-service-card min-h-[460px]">
                 <div className="bg-yellow-200 rounded-2xl mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
                   <img
                     src="/CTA.png"
@@ -271,9 +271,8 @@ export default function Services() {
                 <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-3">
                   Digital Marketing
                 </h3>
-                <p className="text-gray-600 text-sm sm:text-base">
-                  We run multi-platform campaigns across search, social, and programmatic
-                  channels to boost visibility, capture attention, and drive conversions.
+                <p className="text-gray-600 text-sm sm:text-base overflow-y-auto max-h-[120px]">
+                  
                   Our approach blends SEO, paid advertising, content marketing, and
                   analytics to deliver sustainable growth. Digital is where your customers
                   live—our strategies ensure you’re visible before your competitors.
@@ -281,7 +280,7 @@ export default function Services() {
               </div>
           </Link>
           <Link href="/Service#s8">
-              <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-6 text-center service-card extra-service-card">
+              <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-6 text-center service-card extra-service-card min-h-[470px]">
                 <div className="bg-yellow-200 rounded-2xl mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
                   <img
                     src="/demand-generation.png"
@@ -292,17 +291,15 @@ export default function Services() {
                 <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-3">
                   Lead Generation
                 </h3>
-                <p className="text-gray-600 text-sm sm:text-base">
+                <p className="text-gray-600 text-sm sm:text-base overflow-y-auto max-h-[120px]">
                   We use precision targeting and value-driven outreach to attract, nurture,
                   and qualify leads. From top-of-funnel awareness to sales-ready
-                  engagement, our process delivers warm, conversion-focused leads. Quality
-                  leads mean your sales team spends less time chasing and more time
-                  closing.
+                  engagement, our process delivers warm, conversion-focused leads.
                 </p>
               </div>
            </Link>
            <Link href="/Service#s9">
-              <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-6 text-center service-card extra-service-card">
+              <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-6 text-center service-card extra-service-card min-h-[470px]">
                 <div className="bg-yellow-200 rounded-2xl mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
                   <img
                     src="/CTA.png"
@@ -313,17 +310,15 @@ export default function Services() {
                 <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-3">
                   Email Marketing
                 </h3>
-                <p className="text-gray-600 text-sm sm:text-base">
+                <p className="text-gray-600 text-sm sm:text-base overflow-y-auto max-h-[120px]">
                   We design and execute personalized email campaigns that resonate with
                   your target audience—whether you’re nurturing existing relationships,
-                  driving event attendance, or promoting content. Email remains the
-                  highest ROI channel for B2B marketing—ours are built for engagement and
-                  conversion.
+                  driving event attendance, or promoting content.
                 </p>
               </div>
             </Link>
             <Link href="/Service#s10">
-              <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-6 text-center service-card extra-service-card">
+              <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-6 text-center service-card extra-service-card min-h-[470px]">
                 <div className="bg-yellow-200 rounded-2xl mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
                   <img
                     src="/demand-generation.png"
@@ -334,16 +329,15 @@ export default function Services() {
                 <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-3">
                   Appointment Generation
                 </h3>
-                <p className="text-gray-600 text-sm sm:text-base">
+                <p className="text-gray-600 text-sm sm:text-base overflow-y-auto max-h-[120px]">
                   We identify decision-makers, validate their interest, and set up
                   confirmed meetings with your sales team—removing the friction of cold
-                  outreach. Your sales team stays focused on closing deals, while we
-                  handle the time-consuming prospecting work.
+                  outreach. 
               </p>
                 </div>
             </Link>
             <Link href="/Service#s11">
-              <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-6 text-center service-card extra-service-card">
+              <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-6 text-center service-card extra-service-card min-h-[470px]">
                 <div className="bg-yellow-200 rounded-2xl mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
                   <img
                     src="/CTA.png"
@@ -354,19 +348,18 @@ export default function Services() {
                 <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-3">
                   SDR-as-a-Service
                 </h3>
-                <p className="text-gray-600 text-sm sm:text-base">
+                <p className="text-gray-600 text-sm sm:text-base overflow-y-auto max-h-[120px]">
                   Our in-house Sales Development Representatives (SDRs) operate as a
                   seamless extension of your sales team—driving consistent, high-quality
-                  lead generation and appointment setting. We leverage your brand voice,
-                  combined with our enriched data and proven outreach strategies, to
-                  ensure every conversation adds value and builds your pipeline.
+                  lead generation and appointment setting. 
+                  
                 </p>
                 </div>
             </Link>
 
             {/* Onshore and Offshore Services */}
             <Link href="/Service#s12">
-              <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-6 text-center service-card extra-service-card">
+              <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-6 text-center service-card extra-service-card min-h-[460px]">
                 <div className="bg-yellow-200 rounded-2xl mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
                   <img
                     src="/CTA.png"
@@ -377,9 +370,8 @@ export default function Services() {
                 <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-3">
                   Onshore and Offshore Services
                 </h3>
-                <p className="text-gray-600 text-sm sm:text-base">
-                  We help businesses achieve efficiency and scalability through both
-                  onshore and offshore services. Our onshore solutions ensure seamless
+                <p className="text-gray-600 text-sm sm:text-base overflow-y-auto max-h-[120px]">
+                   Our onshore solutions ensure seamless
                   collaboratiocontextualize within your local market, while offshore services provide
                   access to global talent and cost advantages—delivering optimized,
                   sustainable growth.

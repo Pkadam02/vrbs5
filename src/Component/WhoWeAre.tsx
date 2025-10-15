@@ -108,8 +108,6 @@ export default function WhoWeAre() {
                 <li>• 110+ skilled professionals and growing team</li>
                 <li>• Specialized expertise in demand generation, email marketing, and appointment scheduling</li>
                 <li>• Proven efficiency and precision-driven processes</li>
-                <li>• Tailored solutions for measurable business results</li>
-                <li>• Outsourcing that saves time and maximizes productivity</li>
                 <li>• Commitment to helping you focus on what matters most—leading your business to success</li>
               </ul>
             </div>
