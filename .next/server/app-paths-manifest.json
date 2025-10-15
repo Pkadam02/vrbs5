@@ -1,0 +1,12 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/send-case-study/route": "app/api/send-case-study/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/Service/page": "app/Service/page.js",
+  "/casestudy/cs1/page": "app/casestudy/cs1/page.js",
+  "/casestudy/cs2/page": "app/casestudy/cs2/page.js",
+  "/aboutus/page": "app/aboutus/page.js",
+  "/casestudy/cs3/page": "app/casestudy/cs3/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/page": "app/page.js"
+}

@@ -1,0 +1,12 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/send-case-study/route": "/api/send-case-study",
+  "/favicon.ico/route": "/favicon.ico",
+  "/Service/page": "/Service",
+  "/casestudy/cs1/page": "/casestudy/cs1",
+  "/casestudy/cs2/page": "/casestudy/cs2",
+  "/aboutus/page": "/aboutus",
+  "/casestudy/cs3/page": "/casestudy/cs3",
+  "/contact/page": "/contact",
+  "/page": "/"
+}

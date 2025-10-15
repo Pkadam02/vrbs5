@@ -1,0 +1,6 @@
+# Ignore large media files
+public/WeARE.png
+public/study.png
+
+# dependencies
+node_modules
