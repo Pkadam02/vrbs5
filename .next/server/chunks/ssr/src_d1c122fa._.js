@@ -334,17 +334,27 @@ function Partners() {
                                     className: "logos-slide flex shrink-0 space-x-12 px-4",
                                     children: [
                                         "goto.png",
-                                        "KnowBe4.png",
                                         "NETSUITE.png",
                                         "OZONETEL.png",
-                                        "Ring Central.png"
+                                        "Ring Central.png",
+                                        "aws.png",
+                                        "cisco.png",
+                                        "citrix.png",
+                                        "ibm-logo-18920.png",
+                                        "Nutanix.png",
+                                        "Oracle.png",
+                                        "pngegg.png",
+                                        "pngwing.com.png",
+                                        "Salesforce.png",
+                                        "SAP.png",
+                                        "sym.png"
                                     ].map((src, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             src: `img/client-logo/${src}`,
                                             alt: `Partner ${i + 1}`,
-                                            className: "h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                                            className: "h-16 w-32 object-contain"
                                         }, i, false, {
                                             fileName: "[project]/src/Component/Partners.tsx",
-                                            lineNumber: 78,
+                                            lineNumber: 88,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
@@ -356,22 +366,32 @@ function Partners() {
                                     className: "logos-slide flex shrink-0 space-x-12 px-14",
                                     children: [
                                         "goto.png",
-                                        "KnowBe4.png",
                                         "NETSUITE.png",
                                         "OZONETEL.png",
-                                        "Ring Central.png"
+                                        "Ring Central.png",
+                                        "aws.png",
+                                        "cisco.png",
+                                        "citrix.png",
+                                        "ibm-logo-18920.png",
+                                        "Nutanix.png",
+                                        "Oracle.png",
+                                        "pngegg.png",
+                                        "pngwing.com.png",
+                                        "Salesforce.png",
+                                        "SAP.png",
+                                        "sym.png"
                                     ].map((src, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             src: `img/client-logo/${src}`,
                                             alt: `Partner ${i + 1}`,
-                                            className: "h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                                            className: "h- w-32 object-contain"
                                         }, i, false, {
                                             fileName: "[project]/src/Component/Partners.tsx",
-                                            lineNumber: 96,
+                                            lineNumber: 116,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/Component/Partners.tsx",
-                                    lineNumber: 88,
+                                    lineNumber: 98,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -384,14 +404,14 @@ function Partners() {
                             className: "absolute left-0 top-0 h-full w-24 bg-gradient-to-r from-white to-transparent pointer-events-none"
                         }, void 0, false, {
                             fileName: "[project]/src/Component/Partners.tsx",
-                            lineNumber: 107,
+                            lineNumber: 127,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute right-0 top-0 h-full w-24 bg-gradient-to-l from-white to-transparent pointer-events-none"
                         }, void 0, false, {
                             fileName: "[project]/src/Component/Partners.tsx",
-                            lineNumber: 108,
+                            lineNumber: 128,
                             columnNumber: 11
                         }, this)
                     ]
@@ -436,7 +456,7 @@ function StatsSection() {
         const el = sectionRef.current;
         if (!el) return;
         const stats = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].utils.toArray(".stat-number");
-        // Trigger animation only when the section comes into view
+        // Animate numbers when the section scrolls into view
         const trigger = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ScrollTrigger"].create({
             trigger: el,
             start: "top 80%",
@@ -470,90 +490,130 @@ function StatsSection() {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container mx-auto px-6 sm:px-8 md:px-12 lg:px-20",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 sm:grid-cols-3 gap-8 items-center text-center",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "stat-number text-3xl sm:text-4xl md:text-5xl font-extrabold text-blue-900",
-                                    children: "22K+"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/Component/StatsSection.tsx",
-                                    lineNumber: 54,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "mt-2 text-gray-500 text-sm sm:text-base",
-                                    children: "A modest number to start off the metrics section."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/Component/StatsSection.tsx",
-                                    lineNumber: 57,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/Component/StatsSection.tsx",
-                            lineNumber: 53,
-                            columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col items-center justify-center",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "stat-number text-3xl sm:text-4xl md:text-5xl font-extrabold text-blue-900",
-                                    children: "64M+"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/Component/StatsSection.tsx",
-                                    lineNumber: 63,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "mt-2 text-gray-500 text-sm sm:text-base",
-                                    children: "A modest number to start off the metrics section."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/Component/StatsSection.tsx",
-                                    lineNumber: 66,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/Component/StatsSection.tsx",
-                            lineNumber: 62,
-                            columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "stat-number text-3xl sm:text-4xl md:text-5xl font-extrabold text-blue-900",
-                                    children: "94%"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/Component/StatsSection.tsx",
-                                    lineNumber: 72,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "mt-2 text-gray-500 text-sm sm:text-base",
-                                    children: "A modest number to start off the metrics section."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/Component/StatsSection.tsx",
-                                    lineNumber: 75,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/Component/StatsSection.tsx",
-                            lineNumber: 71,
-                            columnNumber: 13
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/Component/StatsSection.tsx",
-                    lineNumber: 52,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
+                className: "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-10 text-center",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                className: "stat-number text-4xl sm:text-5xl font-extrabold text-gray-900",
+                                children: "100+"
+                            }, void 0, false, {
+                                fileName: "[project]/src/Component/StatsSection.tsx",
+                                lineNumber: 53,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "mt-2 text-gray-600 text-sm sm:text-base",
+                                children: "Happy Customers"
+                            }, void 0, false, {
+                                fileName: "[project]/src/Component/StatsSection.tsx",
+                                lineNumber: 56,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/Component/StatsSection.tsx",
+                        lineNumber: 52,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                className: "stat-number text-4xl sm:text-5xl font-extrabold text-gray-900",
+                                children: "5+"
+                            }, void 0, false, {
+                                fileName: "[project]/src/Component/StatsSection.tsx",
+                                lineNumber: 62,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "mt-2 text-gray-600 text-sm sm:text-base",
+                                children: "Years in the Business"
+                            }, void 0, false, {
+                                fileName: "[project]/src/Component/StatsSection.tsx",
+                                lineNumber: 65,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/Component/StatsSection.tsx",
+                        lineNumber: 61,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                className: "stat-number text-4xl sm:text-5xl font-extrabold text-gray-900",
+                                children: "1,000+"
+                            }, void 0, false, {
+                                fileName: "[project]/src/Component/StatsSection.tsx",
+                                lineNumber: 71,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "mt-2 text-gray-600 text-sm sm:text-base",
+                                children: "Projects Delivered"
+                            }, void 0, false, {
+                                fileName: "[project]/src/Component/StatsSection.tsx",
+                                lineNumber: 74,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/Component/StatsSection.tsx",
+                        lineNumber: 70,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                className: "stat-number text-4xl sm:text-5xl font-extrabold text-gray-900",
+                                children: "100k+"
+                            }, void 0, false, {
+                                fileName: "[project]/src/Component/StatsSection.tsx",
+                                lineNumber: 80,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "mt-2 text-gray-600 text-sm sm:text-base",
+                                children: "Leads Delivered"
+                            }, void 0, false, {
+                                fileName: "[project]/src/Component/StatsSection.tsx",
+                                lineNumber: 83,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/Component/StatsSection.tsx",
+                        lineNumber: 79,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                className: "stat-number text-4xl sm:text-5xl font-extrabold text-gray-900",
+                                children: "96%"
+                            }, void 0, false, {
+                                fileName: "[project]/src/Component/StatsSection.tsx",
+                                lineNumber: 89,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "mt-2 text-gray-600 text-sm sm:text-base",
+                                children: "Client Satisfaction"
+                            }, void 0, false, {
+                                fileName: "[project]/src/Component/StatsSection.tsx",
+                                lineNumber: 92,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/Component/StatsSection.tsx",
+                        lineNumber: 88,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/Component/StatsSection.tsx",
                 lineNumber: 51,
                 columnNumber: 9
@@ -654,8 +714,8 @@ function About() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 ref: sectionRef,
-                id: "aboutus",
-                className: " relative overflow-hidden bg-white flex flex-col md:flex-row items-center justify-between px-0 sm:px-8 md:px-12 lg:px-10 py-35 w-full min-h-[90vh] md:py-50 lg:py-20 bg-white",
+                id: "about",
+                className: " relative overflow-hidden bg-white flex flex-col md:flex-row items-center justify-between px-0 sm:px-8 md:px-12 lg:px-10 py-15 w-full min-h-[90vh] md:py-50 lg:py-20 bg-white",
                 "data-scroll-section": true,
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container mx-auto px-4 sm:px-10 lg:px-8",
@@ -676,11 +736,11 @@ function About() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-900 leading-tight",
                                         children: [
-                                            "About VR ",
+                                            "At VR ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/Component/About.tsx",
                                                 lineNumber: 90,
-                                                columnNumber: 24
+                                                columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-blue-900",
@@ -698,7 +758,7 @@ function About() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-base leading-relaxed text-gray-600",
-                                        children: "At VR Business Solution, we are pioneers in customer acquisition and targeted outreach, helping businesses connect with the right audience both online and offline. Our expertise:"
+                                        children: "We are pioneers in customer acquisition and targeted outreach, helping businesses connect with the right audience both online and offline. Our expertise:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/About.tsx",
                                         lineNumber: 93,
@@ -1001,7 +1061,7 @@ function Services() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-3xl sm:text-4xl md:text-5xl font-bold text-blue-900 mt-1 sm:mt-2",
-                            children: "We Provide Best Services"
+                            children: "Delivering Excellence Every Time"
                         }, void 0, false, {
                             fileName: "[project]/src/Component/Services.tsx",
                             lineNumber: 113,
@@ -2150,27 +2210,35 @@ function Testimonials() {
     const testimonials = [
         {
             id: 1,
-            name: "Esther Howard",
-            title: "Chief Executive Officer of GIGL",
-            text: "Kevin is very hard and great worker. He thinks about problems, finds solutions, and has an awesome working morale.",
-            avatar: "/Image2.png",
-            ringClass: "ring-green-300"
+            name: "Marketing Specialist",
+            title: "Fortune 1000 company from North America",
+            text: "The MQL's VR Business Solution generated for our sales teams, we have seen very good response and have an increased conversion rate.",
+            avatar: "/Image1.png",
+            ringClass: "ring-yellow-300"
         },
         {
             id: 2,
-            name: "Cameron Williamson",
-            title: "Chief Executive Officer of GIGL",
-            text: "Kevin did a wonderful job animating a set of static stickers. The work was done quickly and the quality was outstanding.",
-            avatar: "/Image1.png",
+            name: "Digital Marketing Manager",
+            title: "Cyber Security company from Singapore",
+            text: "Their Buyer’s Intent Based leads campaign proved to be a top campaign for us that exceeded our expectations.",
+            avatar: "/Image2.png",
             ringClass: "ring-blue-300"
         },
         {
             id: 3,
-            name: "Savannah Nguyen",
+            name: "Esther Howard",
             title: "Chief Executive Officer of GIGL",
-            text: "Great designer, does amazing work and is very flexible with changes. If you’re looking for a UI/UX designer, Kevin is well qualified.",
+            text: "Kevin is very hard and great worker. He thinks about problems, finds solutions, and has an awesome working morale.",
             avatar: "/Image3.png",
-            ringClass: "ring-gray-300"
+            ringClass: "ring-green-300"
+        },
+        {
+            id: 4,
+            name: "Marketing Director",
+            title: "Technology Enterprise from Europe",
+            text: "Their data-driven marketing approach gave us measurable improvements in our lead quality and engagement rates.",
+            avatar: "/Image4.png",
+            ringClass: "ring-purple-300"
         }
     ];
     const [current, setCurrent] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
@@ -2184,7 +2252,7 @@ function Testimonials() {
         if (autoplay) {
             timeoutRef.current = setTimeout(()=>{
                 setCurrent((prev)=>prev === testimonials.length - 1 ? 0 : prev + 1);
-            }, 5000);
+            }, 6000);
         }
         return ()=>resetTimeout();
     }, [
@@ -2192,86 +2260,39 @@ function Testimonials() {
         autoplay,
         testimonials.length
     ]);
-    // GSAP Animations
+    // GSAP animations
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].registerPlugin(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]);
-        // Animate header elements
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].fromTo(".testimonial-header-pretitle", {
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].fromTo(".testimonial-header", {
             opacity: 0,
-            x: 600
-        }, {
-            opacity: 1,
-            x: 0,
-            duration: 0.8,
-            ease: "power2.out",
-            scrollTrigger: {
-                trigger: ".testimonial-header-pretitle",
-                start: "top 85%",
-                toggleActions: "play none none reverse"
-            }
-        });
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].fromTo(".testimonial-header-title", {
-            opacity: 0,
-            y: 50
+            y: 80
         }, {
             opacity: 1,
             y: 0,
-            duration: 0.8,
+            duration: 1,
             ease: "power2.out",
-            delay: 0.2,
             scrollTrigger: {
-                trigger: ".testimonial-header-title",
+                trigger: ".testimonial-header",
                 start: "top 85%",
                 toggleActions: "play none none reverse"
             }
         });
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].fromTo(".testimonial-header-description", {
-            opacity: 0,
-            y: 300
-        }, {
-            opacity: 1,
-            y: 0,
-            duration: 0.8,
-            ease: "power2.out",
-            delay: 0.4,
-            scrollTrigger: {
-                trigger: ".testimonial-header-description",
-                start: "top 85%",
-                toggleActions: "play none none reverse"
-            }
-        });
-        // Animate testimonial cards (initial fade-in)
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].utils.toArray(".testimonial-item").forEach((item, index)=>{
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].utils.toArray(".testimonial-item").forEach((item, i)=>{
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].fromTo(item, {
                 opacity: 0,
-                y: 600
+                y: 100
             }, {
                 opacity: 1,
                 y: 0,
-                duration: 0.8,
+                duration: 0.9,
+                delay: i * 0.2,
                 ease: "power2.out",
                 scrollTrigger: {
                     trigger: item,
                     start: "top 85%",
                     toggleActions: "play none none reverse"
-                },
-                delay: index * 0.1 // Stagger the animation slightly if multiple are visible
+                }
             });
-        });
-        // Animate navigation arrows and dots
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].fromTo(".testimonial-nav-arrow, .testimonial-dot", {
-            opacity: 0,
-            y: 30
-        }, {
-            opacity: 1,
-            y: 0,
-            duration: 0.6,
-            ease: "power2.out",
-            scrollTrigger: {
-                trigger: ".testimonial-nav-arrows",
-                start: "top 90%",
-                toggleActions: "play none none reverse"
-            }
         });
     }, []);
     const nextSlide = ()=>{
@@ -2288,171 +2309,183 @@ function Testimonials() {
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "testimonials",
-        className: "scroll-mt-24 relative bg-gradient-to-b from-yellow-300 via-white to-yellow-300 py-24 overflow-hidden",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl relative z-10",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "text-center mb-16",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-base text-gray-600 font-semibold uppercase tracking-wide mb-2 testimonial-header-pretitle",
-                            children: "Client Testimonial"
-                        }, void 0, false, {
-                            fileName: "[project]/src/Component/Testimonials.tsx",
-                            lineNumber: 149,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl sm:text-4xl md:text-5xl font-bold text-blue-900 mb-4 testimonial-header-title",
-                            children: "What Our Clients Say"
-                        }, void 0, false, {
-                            fileName: "[project]/src/Component/Testimonials.tsx",
-                            lineNumber: 152,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-base sm:text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed testimonial-header-description",
-                            children: "Nam malesuada est elementum nibh tristique, non ornare lacus mollis. Sed lectus nulla, ultrices in gravida in."
-                        }, void 0, false, {
-                            fileName: "[project]/src/Component/Testimonials.tsx",
-                            lineNumber: 155,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/Component/Testimonials.tsx",
-                    lineNumber: 148,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "relative flex flex-col items-center justify-center testimonial-wrapper",
-                    children: [
-                        testimonials.map((testimonial, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: `transition-all duration-700 ease-in-out transform ${current === index ? "opacity-100 scale-100 translate-y-0 z-10" : "opacity-0 scale-95 translate-y-4 pointer-events-none absolute"} testimonial-item`,
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-white rounded-2xl shadow-2xl border border-gray-100 p-6 sm:p-10 text-center mx-4 w-auto max-w-sm sm:max-w-lg",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                            src: testimonial.avatar,
-                                            alt: testimonial.name,
-                                            className: `mx-auto rounded-full object-cover mb-6 ring-4 ${testimonial.ringClass} w-24 h-24`
+        className: "scroll-mt-24 relative py-24 bg-gradient-to-b from-yellow-200 via-white to-yellow-100 overflow-hidden",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 bg-cover bg-center opacity-10",
+                style: {
+                    backgroundImage: "url('/degtf.jpg')"
+                }
+            }, void 0, false, {
+                fileName: "[project]/src/Component/Testimonials.tsx",
+                lineNumber: 123,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl relative z-10",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "text-center mb-16 testimonial-header",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-base text-gray-600 font-semibold uppercase tracking-wide mb-2",
+                                children: "Client Testimonials"
+                            }, void 0, false, {
+                                fileName: "[project]/src/Component/Testimonials.tsx",
+                                lineNumber: 131,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "text-4xl sm:text-5xl font-bold text-blue-900 mb-4",
+                                children: "What Our Clients Say"
+                            }, void 0, false, {
+                                fileName: "[project]/src/Component/Testimonials.tsx",
+                                lineNumber: 134,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-base sm:text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed",
+                                children: "Hear directly from our valued clients across industries about their experiences with our performance-driven solutions."
+                            }, void 0, false, {
+                                fileName: "[project]/src/Component/Testimonials.tsx",
+                                lineNumber: 137,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/Component/Testimonials.tsx",
+                        lineNumber: 130,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "relative flex flex-col items-center justify-center",
+                        children: [
+                            testimonials.map((testimonial, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: `transition-all duration-700 ease-in-out transform ${current === index ? "opacity-100 scale-100 translate-y-0 z-10" : "opacity-0 scale-95 translate-y-4 pointer-events-none absolute"} testimonial-item`,
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "bg-white/90 backdrop-blur-lg rounded-2xl shadow-2xl border border-yellow-200 p-8 sm:p-10 text-center mx-4 w-full max-w-lg",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                src: testimonial.avatar,
+                                                alt: testimonial.name,
+                                                className: `mx-auto rounded-full object-cover mb-6 ring-4 ${testimonial.ringClass} w-24 h-24`
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/Component/Testimonials.tsx",
+                                                lineNumber: 155,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-gray-700 italic leading-relaxed mb-6 text-base sm:text-lg",
+                                                children: [
+                                                    "“",
+                                                    testimonial.text,
+                                                    "”"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/Component/Testimonials.tsx",
+                                                lineNumber: 160,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "font-semibold text-blue-900 text-lg",
+                                                children: testimonial.name
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/Component/Testimonials.tsx",
+                                                lineNumber: 163,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "text-sm text-gray-600",
+                                                children: testimonial.title
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/Component/Testimonials.tsx",
+                                                lineNumber: 166,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/Component/Testimonials.tsx",
+                                        lineNumber: 154,
+                                        columnNumber: 15
+                                    }, this)
+                                }, testimonial.id, false, {
+                                    fileName: "[project]/src/Component/Testimonials.tsx",
+                                    lineNumber: 146,
+                                    columnNumber: 13
+                                }, this)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "testimonial-nav-arrows z-10",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        onClick: prevSlide,
+                                        className: "absolute top-1/2 left-0 -translate-y-1/2 bg-yellow-300 p-3 rounded-full text-blue-900 hover:bg-yellow-400 shadow-md transition testimonial-nav-arrow",
+                                        "aria-label": "Previous testimonial",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__["ChevronLeft"], {
+                                            className: "w-6 h-6"
                                         }, void 0, false, {
-                                            fileName: "[project]/src/Component/Testimonials.tsx",
-                                            lineNumber: 173,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-gray-600 italic leading-relaxed mb-6 text-base sm:text-lg",
-                                            children: [
-                                                "“",
-                                                testimonial.text,
-                                                "”"
-                                            ]
-                                        }, void 0, true, {
                                             fileName: "[project]/src/Component/Testimonials.tsx",
                                             lineNumber: 178,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "font-semibold text-gray-900 text-lg",
-                                            children: testimonial.name
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/Component/Testimonials.tsx",
-                                            lineNumber: 181,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "text-sm text-gray-500",
-                                            children: testimonial.title
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/Component/Testimonials.tsx",
-                                            lineNumber: 184,
-                                            columnNumber: 17
+                                            columnNumber: 15
                                         }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/Component/Testimonials.tsx",
-                                    lineNumber: 172,
-                                    columnNumber: 15
-                                }, this)
-                            }, testimonial.id, false, {
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/Component/Testimonials.tsx",
+                                        lineNumber: 173,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        onClick: nextSlide,
+                                        className: "absolute top-1/2 right-0 -translate-y-1/2 bg-yellow-300 p-3 rounded-full text-blue-900 hover:bg-yellow-400 shadow-md transition testimonial-nav-arrow",
+                                        "aria-label": "Next testimonial",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
+                                            className: "w-6 h-6"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/Component/Testimonials.tsx",
+                                            lineNumber: 185,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/Component/Testimonials.tsx",
+                                        lineNumber: 180,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/src/Component/Testimonials.tsx",
-                                lineNumber: 164,
+                                lineNumber: 172,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/Component/Testimonials.tsx",
+                        lineNumber: 144,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex justify-center mt-10 space-x-3",
+                        children: testimonials.map((_, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                onClick: ()=>goToSlide(index),
+                                className: `w-3 h-3 rounded-full transition-all duration-300 ${current === index ? "bg-yellow-400 w-6 scale-125" : "bg-gray-300 hover:bg-yellow-400"}`,
+                                "aria-label": `Go to testimonial ${index + 1}`
+                            }, index, false, {
+                                fileName: "[project]/src/Component/Testimonials.tsx",
+                                lineNumber: 193,
                                 columnNumber: 13
-                            }, this)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "testimonial-nav-arrows z-10",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    onClick: prevSlide,
-                                    className: "absolute top-1/2 left-0 -translate-y-1/2 bg-yellow-300 p-3 rounded-full text-blue-900 hover:bg-yellow-400 shadow-md transition testimonial-nav-arrow",
-                                    "aria-label": "Previous testimonial",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__["ChevronLeft"], {
-                                        className: "w-6 h-6"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/Component/Testimonials.tsx",
-                                        lineNumber: 196,
-                                        columnNumber: 13
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/src/Component/Testimonials.tsx",
-                                    lineNumber: 191,
-                                    columnNumber: 11
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    onClick: nextSlide,
-                                    className: "absolute top-1/2 right-0 -translate-y-1/2 bg-yellow-300 p-3 rounded-full text-blue-900 hover:bg-yellow-400 shadow-md transition testimonial-nav-arrow",
-                                    "aria-label": "Next testimonial",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                        className: "w-6 h-6"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/Component/Testimonials.tsx",
-                                        lineNumber: 203,
-                                        columnNumber: 13
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/src/Component/Testimonials.tsx",
-                                    lineNumber: 198,
-                                    columnNumber: 11
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/Component/Testimonials.tsx",
-                            lineNumber: 190,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/Component/Testimonials.tsx",
-                    lineNumber: 162,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex justify-center mt-10 space-x-3 testimonial-dots-container",
-                    children: testimonials.map((_, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            onClick: ()=>goToSlide(index),
-                            className: `w-3 h-3 rounded-full transition-all duration-300 ${current === index ? "bg-yellow-300 w-6 scale-125" : "bg-gray-300 hover:bg-yellow-300"} testimonial-dot`,
-                            "aria-label": `Go to testimonial ${index + 1}`
-                        }, index, false, {
-                            fileName: "[project]/src/Component/Testimonials.tsx",
-                            lineNumber: 211,
-                            columnNumber: 13
-                        }, this))
-                }, void 0, false, {
-                    fileName: "[project]/src/Component/Testimonials.tsx",
-                    lineNumber: 209,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/Component/Testimonials.tsx",
-            lineNumber: 146,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/src/Component/Testimonials.tsx",
+                        lineNumber: 191,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/Component/Testimonials.tsx",
+                lineNumber: 128,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/src/Component/Testimonials.tsx",
-        lineNumber: 145,
+        lineNumber: 118,
         columnNumber: 5
     }, this);
 }

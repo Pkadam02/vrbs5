@@ -71,10 +71,11 @@ export default function Footer() {
           <div className="flex flex-col items-center sm:items-start text-center sm:text-left col-span-1 sm:col-span-2 lg:col-span-1 mb-8 sm:mb-0 footer-logo-contact">
             <img src="title2.png" alt="VR Business Solutions" className="h-12 mb-4" />
           </div>
+          
 
           {/* Hawaii Main Office */}
           <div className="text-center sm:text-left footer-column">
-            <h3 className="text-lg font-bold mb-4">Office</h3>
+            <h3 className="text-lg font-bold mb-4">Headquarters</h3>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>66 West Flagler Street - Suite 900</li>
               <li>Miami, FL 33130, USA</li>

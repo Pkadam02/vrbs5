@@ -70,16 +70,26 @@ export default function Partners() {
             <div className="logos-slide flex shrink-0 space-x-12 px-4">
               {[
                  "goto.png",
-                 "KnowBe4.png",
                  "NETSUITE.png",
                  "OZONETEL.png",
                  "Ring Central.png",
+                 "aws.png",
+                 "cisco.png",
+                 "citrix.png",
+                 "ibm-logo-18920.png",
+                 "Nutanix.png",
+                 "Oracle.png",
+                 "pngegg.png",
+                 "pngwing.com.png",
+                 "Salesforce.png",
+                 "SAP.png",
+                 "sym.png",
               ].map((src, i) => (
                 <img
                   key={i}
                   src={`img/client-logo/${src}`}
                   alt={`Partner ${i + 1}`}
-                  className="h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                  className="h-16 w-32 object-contain"
                 />
               ))}
             </div>
@@ -88,16 +98,26 @@ export default function Partners() {
             <div className="logos-slide flex shrink-0 space-x-12 px-14">
               {[
                 "goto.png",
-                "KnowBe4.png",
-                "NETSUITE.png",
-                "OZONETEL.png",
-                "Ring Central.png",
+                 "NETSUITE.png",
+                 "OZONETEL.png",
+                 "Ring Central.png",
+                 "aws.png",
+                 "cisco.png",
+                 "citrix.png",
+                 "ibm-logo-18920.png",
+                 "Nutanix.png",
+                 "Oracle.png",
+                 "pngegg.png",
+                 "pngwing.com.png",
+                 "Salesforce.png",
+                 "SAP.png",
+                 "sym.png",
               ].map((src, i) => (
                 <img
                   key={i}
                   src={`img/client-logo/${src}`}
                   alt={`Partner ${i + 1}`}
-                  className="h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                  className="h- w-32 object-contain"
                 />
               ))}
             </div>

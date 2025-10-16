@@ -15,7 +15,7 @@ export default function StatsSection() {
 
     const stats = gsap.utils.toArray<HTMLElement>(".stat-number");
 
-    // Trigger animation only when the section comes into view
+    // Animate numbers when the section scrolls into view
     const trigger = ScrollTrigger.create({
       trigger: el,
       start: "top 80%",
@@ -48,34 +48,50 @@ export default function StatsSection() {
   return (
     <section ref={sectionRef} className="py-16 bg-white">
       <div className="container mx-auto px-6 sm:px-8 md:px-12 lg:px-20">
-        <div className="relative">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 items-center text-center">
-            <div>
-              <h3 className="stat-number text-3xl sm:text-4xl md:text-5xl font-extrabold text-blue-900">
-                22K+
-              </h3>
-              <p className="mt-2 text-gray-500 text-sm sm:text-base">
-                A modest number to start off the metrics section.
-              </p>
-            </div>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-10 text-center">
+          <div>
+            <h3 className="stat-number text-4xl sm:text-5xl font-extrabold text-gray-900">
+              100+
+            </h3>
+            <p className="mt-2 text-gray-600 text-sm sm:text-base">
+              Happy Customers
+            </p>
+          </div>
 
-            <div className="flex flex-col items-center justify-center">
-              <h3 className="stat-number text-3xl sm:text-4xl md:text-5xl font-extrabold text-blue-900">
-                64M+
-              </h3>
-              <p className="mt-2 text-gray-500 text-sm sm:text-base">
-                A modest number to start off the metrics section.
-              </p>
-            </div>
+          <div>
+            <h3 className="stat-number text-4xl sm:text-5xl font-extrabold text-gray-900">
+              5+
+            </h3>
+            <p className="mt-2 text-gray-600 text-sm sm:text-base">
+              Years in the Business
+            </p>
+          </div>
 
-            <div>
-              <h3 className="stat-number text-3xl sm:text-4xl md:text-5xl font-extrabold text-blue-900">
-                94%
-              </h3>
-              <p className="mt-2 text-gray-500 text-sm sm:text-base">
-                A modest number to start off the metrics section.
-              </p>
-            </div>
+          <div>
+            <h3 className="stat-number text-4xl sm:text-5xl font-extrabold text-gray-900">
+              1,000+
+            </h3>
+            <p className="mt-2 text-gray-600 text-sm sm:text-base">
+              Projects Delivered
+            </p>
+          </div>
+
+          <div>
+            <h3 className="stat-number text-4xl sm:text-5xl font-extrabold text-gray-900">
+              100k+
+            </h3>
+            <p className="mt-2 text-gray-600 text-sm sm:text-base">
+              Leads Delivered
+            </p>
+          </div>
+
+          <div>
+            <h3 className="stat-number text-4xl sm:text-5xl font-extrabold text-gray-900">
+              96%
+            </h3>
+            <p className="mt-2 text-gray-600 text-sm sm:text-base">
+              Client Satisfaction
+            </p>
           </div>
         </div>
       </div>

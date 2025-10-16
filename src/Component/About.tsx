@@ -75,8 +75,8 @@ export default function About() {
     <>
     <section
         ref={sectionRef}
-        id="aboutus"
-        className=" relative overflow-hidden bg-white flex flex-col md:flex-row items-center justify-between px-0 sm:px-8 md:px-12 lg:px-10 py-35 w-full min-h-[90vh] md:py-50 lg:py-20 bg-white"
+        id="about"
+        className=" relative overflow-hidden bg-white flex flex-col md:flex-row items-center justify-between px-0 sm:px-8 md:px-12 lg:px-10 py-15 w-full min-h-[90vh] md:py-50 lg:py-20 bg-white"
         data-scroll-section
       >
       <div className="container mx-auto px-4 sm:px-10 lg:px-8">
@@ -87,11 +87,11 @@ export default function About() {
               About
             </p>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-900 leading-tight">
-              About VR <br />
+            At VR <br />
               <span className="text-blue-900">Business Solution</span>
             </h2>
             <p className="text-base leading-relaxed text-gray-600">
-              At VR Business Solution, we are pioneers in customer acquisition
+              We are pioneers in customer acquisition
               and targeted outreach, helping businesses connect with the right
               audience both online and offline. Our expertise:
             </p>

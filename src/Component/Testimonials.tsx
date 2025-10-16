@@ -9,27 +9,35 @@ export default function Testimonials() {
   const testimonials = [
     {
       id: 1,
-      name: "Esther Howard",
-      title: "Chief Executive Officer of GIGL",
-      text: "Kevin is very hard and great worker. He thinks about problems, finds solutions, and has an awesome working morale.",
-      avatar: "/Image2.png",
-      ringClass: "ring-green-300",
+      name: "Marketing Specialist",
+      title: "Fortune 1000 company from North America",
+      text: "The MQL's VR Business Solution generated for our sales teams, we have seen very good response and have an increased conversion rate.",
+      avatar: "/Image1.png",
+      ringClass: "ring-yellow-300",
     },
     {
       id: 2,
-      name: "Cameron Williamson",
-      title: "Chief Executive Officer of GIGL",
-      text: "Kevin did a wonderful job animating a set of static stickers. The work was done quickly and the quality was outstanding.",
-      avatar: "/Image1.png",
+      name: "Digital Marketing Manager",
+      title: "Cyber Security company from Singapore",
+      text: "Their Buyer’s Intent Based leads campaign proved to be a top campaign for us that exceeded our expectations.",
+      avatar: "/Image2.png",
       ringClass: "ring-blue-300",
     },
     {
       id: 3,
-      name: "Savannah Nguyen",
+      name: "Esther Howard",
       title: "Chief Executive Officer of GIGL",
-      text: "Great designer, does amazing work and is very flexible with changes. If you’re looking for a UI/UX designer, Kevin is well qualified.",
+      text: "Kevin is very hard and great worker. He thinks about problems, finds solutions, and has an awesome working morale.",
       avatar: "/Image3.png",
-      ringClass: "ring-gray-300",
+      ringClass: "ring-green-300",
+    },
+    {
+      id: 4,
+      name: "Marketing Director",
+      title: "Technology Enterprise from Europe",
+      text: "Their data-driven marketing approach gave us measurable improvements in our lead quality and engagement rates.",
+      avatar: "/Image4.png",
+      ringClass: "ring-purple-300",
     },
   ];
 
@@ -46,84 +54,49 @@ export default function Testimonials() {
     if (autoplay) {
       timeoutRef.current = setTimeout(() => {
         setCurrent((prev) => (prev === testimonials.length - 1 ? 0 : prev + 1));
-      }, 5000);
+      }, 6000);
     }
     return () => resetTimeout();
   }, [current, autoplay, testimonials.length]);
 
-  // GSAP Animations
+  // GSAP animations
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
-    // Animate header elements
     gsap.fromTo(
-      ".testimonial-header-pretitle",
-      { opacity: 0, x: 600 },
-      { opacity: 1, x: 0, duration: 0.8, ease: "power2.out",
+      ".testimonial-header",
+      { opacity: 0, y: 80 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        ease: "power2.out",
         scrollTrigger: {
-          trigger: ".testimonial-header-pretitle",
+          trigger: ".testimonial-header",
           start: "top 85%",
           toggleActions: "play none none reverse",
-        }
+        },
       }
     );
 
-    gsap.fromTo(
-      ".testimonial-header-title",
-      { opacity: 0, y: 50 },
-      { opacity: 1, y: 0, duration: 0.8, ease: "power2.out", delay: 0.2,
-        scrollTrigger: {
-          trigger: ".testimonial-header-title",
-          start: "top 85%",
-          toggleActions: "play none none reverse",
-        }
-      }
-    );
-
-    gsap.fromTo(
-      ".testimonial-header-description",
-      { opacity: 0, y: 300 },
-      { opacity: 1, y: 0, duration: 0.8, ease: "power2.out", delay: 0.4,
-        scrollTrigger: {
-          trigger: ".testimonial-header-description",
-          start: "top 85%",
-          toggleActions: "play none none reverse",
-        }
-      }
-    );
-
-    // Animate testimonial cards (initial fade-in)
-    (gsap.utils.toArray(".testimonial-item") as HTMLElement[]).forEach((item, index) => {
-      gsap.fromTo(item, 
-        { opacity: 0, y: 600 },
-        { 
-          opacity: 1, 
-          y: 0, 
-          duration: 0.8, 
+    (gsap.utils.toArray(".testimonial-item") as HTMLElement[]).forEach((item, i) => {
+      gsap.fromTo(
+        item,
+        { opacity: 0, y: 100 },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 0.9,
+          delay: i * 0.2,
           ease: "power2.out",
           scrollTrigger: {
             trigger: item,
             start: "top 85%",
             toggleActions: "play none none reverse",
           },
-          delay: index * 0.1 // Stagger the animation slightly if multiple are visible
         }
       );
     });
-
-    // Animate navigation arrows and dots
-    gsap.fromTo(
-      ".testimonial-nav-arrow, .testimonial-dot",
-      { opacity: 0, y: 30 },
-      { opacity: 1, y: 0, duration: 0.6, ease: "power2.out",
-        scrollTrigger: {
-          trigger: ".testimonial-nav-arrows",
-          start: "top 90%",
-          toggleActions: "play none none reverse",
-        }
-      }
-    );
-
   }, []);
 
   const nextSlide = () => {
@@ -142,24 +115,33 @@ export default function Testimonials() {
   };
 
   return (
-    <section id="testimonials" className="scroll-mt-24 relative bg-gradient-to-b from-yellow-300 via-white to-yellow-300 py-24 overflow-hidden">
+    <section
+      id="testimonials"
+      className="scroll-mt-24 relative py-24 bg-gradient-to-b from-yellow-200 via-white to-yellow-100 overflow-hidden"
+    >
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center opacity-10"
+        style={{ backgroundImage: "url('/degtf.jpg')" }}
+      ></div>
+
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl relative z-10">
         {/* Header */}
-        <div className="text-center mb-16">
-          <p className="text-base text-gray-600 font-semibold uppercase tracking-wide mb-2 testimonial-header-pretitle">
-            Client Testimonial
+        <div className="text-center mb-16 testimonial-header">
+          <p className="text-base text-gray-600 font-semibold uppercase tracking-wide mb-2">
+            Client Testimonials
           </p>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-900 mb-4 testimonial-header-title">
+          <h2 className="text-4xl sm:text-5xl font-bold text-blue-900 mb-4">
             What Our Clients Say
           </h2>
-          <p className="text-base sm:text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed testimonial-header-description">
-            Nam malesuada est elementum nibh tristique, non ornare lacus mollis.
-            Sed lectus nulla, ultrices in gravida in.
+          <p className="text-base sm:text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
+            Hear directly from our valued clients across industries about their
+            experiences with our performance-driven solutions.
           </p>
         </div>
 
-        {/* Testimonial Wrapper */}
-        <div className="relative flex flex-col items-center justify-center testimonial-wrapper">
+        {/* Testimonials */}
+        <div className="relative flex flex-col items-center justify-center">
           {testimonials.map((testimonial, index) => (
             <div
               key={testimonial.id}
@@ -169,53 +151,53 @@ export default function Testimonials() {
                   : "opacity-0 scale-95 translate-y-4 pointer-events-none absolute"
               } testimonial-item`}
             >
-              <div className="bg-white rounded-2xl shadow-2xl border border-gray-100 p-6 sm:p-10 text-center mx-4 w-auto max-w-sm sm:max-w-lg">
+              <div className="bg-white/90 backdrop-blur-lg rounded-2xl shadow-2xl border border-yellow-200 p-8 sm:p-10 text-center mx-4 w-full max-w-lg">
                 <img
                   src={testimonial.avatar}
                   alt={testimonial.name}
                   className={`mx-auto rounded-full object-cover mb-6 ring-4 ${testimonial.ringClass} w-24 h-24`}
                 />
-                <p className="text-gray-600 italic leading-relaxed mb-6 text-base sm:text-lg">
+                <p className="text-gray-700 italic leading-relaxed mb-6 text-base sm:text-lg">
                   “{testimonial.text}”
                 </p>
-                <div className="font-semibold text-gray-900 text-lg">
+                <div className="font-semibold text-blue-900 text-lg">
                   {testimonial.name}
                 </div>
-                <div className="text-sm text-gray-500">{testimonial.title}</div>
+                <div className="text-sm text-gray-600">{testimonial.title}</div>
               </div>
             </div>
           ))}
 
           {/* Navigation Arrows */}
           <div className="testimonial-nav-arrows z-10">
-          <button
-            onClick={prevSlide}
-            className="absolute top-1/2 left-0 -translate-y-1/2 bg-yellow-300 p-3 rounded-full text-blue-900 hover:bg-yellow-400 shadow-md transition testimonial-nav-arrow"
-            aria-label="Previous testimonial"
-          >
-            <ChevronLeft className="w-6 h-6" />
-          </button>
-          <button
-            onClick={nextSlide}
-            className="absolute top-1/2 right-0 -translate-y-1/2 bg-yellow-300 p-3 rounded-full text-blue-900 hover:bg-yellow-400 shadow-md transition testimonial-nav-arrow"
-            aria-label="Next testimonial"
-          >
-            <ChevronRight className="w-6 h-6" />
-          </button>
+            <button
+              onClick={prevSlide}
+              className="absolute top-1/2 left-0 -translate-y-1/2 bg-yellow-300 p-3 rounded-full text-blue-900 hover:bg-yellow-400 shadow-md transition testimonial-nav-arrow"
+              aria-label="Previous testimonial"
+            >
+              <ChevronLeft className="w-6 h-6" />
+            </button>
+            <button
+              onClick={nextSlide}
+              className="absolute top-1/2 right-0 -translate-y-1/2 bg-yellow-300 p-3 rounded-full text-blue-900 hover:bg-yellow-400 shadow-md transition testimonial-nav-arrow"
+              aria-label="Next testimonial"
+            >
+              <ChevronRight className="w-6 h-6" />
+            </button>
           </div>
         </div>
 
         {/* Dots */}
-        <div className="flex justify-center mt-10 space-x-3 testimonial-dots-container">
+        <div className="flex justify-center mt-10 space-x-3">
           {testimonials.map((_, index) => (
             <button
               key={index}
               onClick={() => goToSlide(index)}
               className={`w-3 h-3 rounded-full transition-all duration-300 ${
                 current === index
-                  ? "bg-yellow-300 w-6 scale-125"
-                  : "bg-gray-300 hover:bg-yellow-300"
-              } testimonial-dot`}
+                  ? "bg-yellow-400 w-6 scale-125"
+                  : "bg-gray-300 hover:bg-yellow-400"
+              }`}
               aria-label={`Go to testimonial ${index + 1}`}
             />
           ))}
