@@ -1,7 +1,7 @@
 // src/app/layout.tsx
 import "./globals.css";
 import { Poppins, Archivo } from "next/font/google";
-import LayoutClient from "./LayoutClient"; // 👈 import client component
+import LayoutClient from "../Component/LayoutClient"; // 👈 import client component
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["700"], variable: "--font-poppins" });
 const archivo = Archivo({ subsets: ["latin"], weight: ["400"], variable: "--font-archivo" });
@@ -20,7 +20,7 @@ export const metadata = {
     siteName: "VR Business Solution",
     images: [
       {
-        url: "/vr.png", // 👈 place this image in /public/
+        url: "vr.png", // 👈 place this image in /public/
         width: 1200,
         height: 630,
         alt: "VR Business Solution Preview",
