@@ -1317,47 +1317,47 @@ function Services() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/Service#s6",
+                            href: "/Service#s12",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card min-h-[460px]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-70 overflow-hidden",
+                                        className: "bg-yellow-200 rounded-2xl mb-5 flex items-center justify-center h-48 sm:h-65 overflow-hidden",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                            src: "software-dev.png",
-                                            alt: "Software Development",
-                                            className: "w-full h-full max-w-[200px] max-h-[150px] object-cover"
+                                            src: "/CTA.png",
+                                            alt: "Onshore and Offshore Services",
+                                            className: "w-full h-full max-w-[180px] max-h-[180px] object-cover"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Component/Services.tsx",
                                             lineNumber: 222,
-                                            columnNumber: 17
+                                            columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services.tsx",
                                         lineNumber: 221,
-                                        columnNumber: 15
+                                        columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-lg sm:text-xl font-semibold text-blue-900 mb-2 sm:mb-3",
-                                        children: "Software Development"
+                                        className: "text-lg sm:text-xl font-semibold text-blue-900 mb-3",
+                                        children: "Onshore and Offshore Services"
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services.tsx",
                                         lineNumber: 228,
-                                        columnNumber: 15
+                                        columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-gray-600 text-sm sm:text-base overflow-y-auto max-h-[120px]",
-                                        children: "Our team delivers custom, scalable, and secure software solutions — from modern web apps to enterprise systems that optimize your workflows and enable digital transformation."
+                                        children: "Our onshore solutions ensure seamless collaboratiocontextualize within your local market, while offshore services provide access to global talent and cost advantages—delivering optimized, sustainable growth."
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services.tsx",
                                         lineNumber: 231,
-                                        columnNumber: 15
+                                        columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/Component/Services.tsx",
                                 lineNumber: 220,
-                                columnNumber: 13
+                                columnNumber: 11
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/Component/Services.tsx",
@@ -1384,25 +1384,25 @@ function Services() {
                                 children: "Know More"
                             }, void 0, false, {
                                 fileName: "[project]/src/Component/Services.tsx",
-                                lineNumber: 251,
+                                lineNumber: 253,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "absolute inset-0 bg-yellow-300 top-full group-hover:top-0 transition-all duration-700 ease-[cubic-bezier(0.19,1,0.22,1)] rounded-t-[100%]"
                             }, void 0, false, {
                                 fileName: "[project]/src/Component/Services.tsx",
-                                lineNumber: 254,
+                                lineNumber: 256,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/Component/Services.tsx",
-                        lineNumber: 244,
+                        lineNumber: 246,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/Component/Services.tsx",
-                    lineNumber: 243,
+                    lineNumber: 245,
                     columnNumber: 11
                 }, this),
                 showMore && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1421,12 +1421,12 @@ function Services() {
                                             className: "w-full h-full max-w-[200px] max-h-[200px] object-cover rounded-2xl"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Component/Services.tsx",
-                                            lineNumber: 265,
+                                            lineNumber: 267,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services.tsx",
-                                        lineNumber: 264,
+                                        lineNumber: 266,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1434,7 +1434,7 @@ function Services() {
                                         children: "Digital Marketing"
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services.tsx",
-                                        lineNumber: 271,
+                                        lineNumber: 273,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1442,18 +1442,18 @@ function Services() {
                                         children: "Our approach blends SEO, paid advertising, content marketing, and analytics to deliver sustainable growth. Digital is where your customers live—our strategies ensure you’re visible before your competitors."
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services.tsx",
-                                        lineNumber: 274,
+                                        lineNumber: 276,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/Component/Services.tsx",
-                                lineNumber: 263,
+                                lineNumber: 265,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/Component/Services.tsx",
-                            lineNumber: 262,
+                            lineNumber: 264,
                             columnNumber: 12
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1469,12 +1469,12 @@ function Services() {
                                             className: "w-full h-full max-w-[200px] max-h-[200px] object-cover rounded-2xl"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Component/Services.tsx",
-                                            lineNumber: 285,
+                                            lineNumber: 287,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services.tsx",
-                                        lineNumber: 284,
+                                        lineNumber: 286,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1482,7 +1482,7 @@ function Services() {
                                         children: "Lead Generation"
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services.tsx",
-                                        lineNumber: 291,
+                                        lineNumber: 293,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1490,18 +1490,18 @@ function Services() {
                                         children: "We use precision targeting and value-driven outreach to attract, nurture, and qualify leads. From top-of-funnel awareness to sales-ready engagement, our process delivers warm, conversion-focused leads."
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services.tsx",
-                                        lineNumber: 294,
+                                        lineNumber: 296,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/Component/Services.tsx",
-                                lineNumber: 283,
+                                lineNumber: 285,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/Component/Services.tsx",
-                            lineNumber: 282,
+                            lineNumber: 284,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1517,12 +1517,12 @@ function Services() {
                                             className: "w-full h-full max-w-[200px] max-h-[200px] object-cover rounded-2xl"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Component/Services.tsx",
-                                            lineNumber: 304,
+                                            lineNumber: 306,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services.tsx",
-                                        lineNumber: 303,
+                                        lineNumber: 305,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1530,7 +1530,7 @@ function Services() {
                                         children: "Email Marketing"
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services.tsx",
-                                        lineNumber: 310,
+                                        lineNumber: 312,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1538,18 +1538,18 @@ function Services() {
                                         children: "We design and execute personalized email campaigns that resonate with your target audience—whether you’re nurturing existing relationships, driving event attendance, or promoting content."
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services.tsx",
-                                        lineNumber: 313,
+                                        lineNumber: 315,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/Component/Services.tsx",
-                                lineNumber: 302,
+                                lineNumber: 304,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/Component/Services.tsx",
-                            lineNumber: 301,
+                            lineNumber: 303,
                             columnNumber: 12
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1565,12 +1565,12 @@ function Services() {
                                             className: "w-full h-full max-w-[200px] max-h-[200px] object-cover rounded-2xl"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Component/Services.tsx",
-                                            lineNumber: 323,
+                                            lineNumber: 325,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services.tsx",
-                                        lineNumber: 322,
+                                        lineNumber: 324,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1578,7 +1578,7 @@ function Services() {
                                         children: "Appointment Generation"
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services.tsx",
-                                        lineNumber: 329,
+                                        lineNumber: 331,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1586,18 +1586,18 @@ function Services() {
                                         children: "We identify decision-makers, validate their interest, and set up confirmed meetings with your sales team—removing the friction of cold outreach."
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services.tsx",
-                                        lineNumber: 332,
+                                        lineNumber: 334,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/Component/Services.tsx",
-                                lineNumber: 321,
+                                lineNumber: 323,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/Component/Services.tsx",
-                            lineNumber: 320,
+                            lineNumber: 322,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1613,12 +1613,12 @@ function Services() {
                                             className: "w-full h-full max-w-[200px] max-h-[200px] object-cover rounded-2xl"
                                         }, void 0, false, {
                                             fileName: "[project]/src/Component/Services.tsx",
-                                            lineNumber: 342,
+                                            lineNumber: 344,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services.tsx",
-                                        lineNumber: 341,
+                                        lineNumber: 343,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1626,7 +1626,7 @@ function Services() {
                                         children: "SDR-as-a-Service"
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services.tsx",
-                                        lineNumber: 348,
+                                        lineNumber: 350,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1634,72 +1634,24 @@ function Services() {
                                         children: "Our in-house Sales Development Representatives (SDRs) operate as a seamless extension of your sales team—driving consistent, high-quality lead generation and appointment setting."
                                     }, void 0, false, {
                                         fileName: "[project]/src/Component/Services.tsx",
-                                        lineNumber: 351,
+                                        lineNumber: 353,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/Component/Services.tsx",
-                                lineNumber: 340,
+                                lineNumber: 342,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/Component/Services.tsx",
-                            lineNumber: 339,
-                            columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/Service#s12",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-6 text-center service-card extra-service-card min-h-[460px]",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "bg-yellow-200 rounded-2xl mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                            src: "/CTA.png",
-                                            alt: "Onshore and Offshore Services",
-                                            className: "w-full h-full max-w-[200px] max-h-[200px] object-cover rounded-2xl"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/Component/Services.tsx",
-                                            lineNumber: 364,
-                                            columnNumber: 19
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/Component/Services.tsx",
-                                        lineNumber: 363,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-lg sm:text-xl font-semibold text-blue-900 mb-3",
-                                        children: "Onshore and Offshore Services"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/Component/Services.tsx",
-                                        lineNumber: 370,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-600 text-sm sm:text-base overflow-y-auto max-h-[120px]",
-                                        children: "Our onshore solutions ensure seamless collaboratiocontextualize within your local market, while offshore services provide access to global talent and cost advantages—delivering optimized, sustainable growth."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/Component/Services.tsx",
-                                        lineNumber: 373,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/Component/Services.tsx",
-                                lineNumber: 362,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/src/Component/Services.tsx",
-                            lineNumber: 361,
+                            lineNumber: 341,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/Component/Services.tsx",
-                    lineNumber: 260,
+                    lineNumber: 262,
                     columnNumber: 11
                 }, this)
             ]
@@ -2687,7 +2639,7 @@ const CaseStudies = ()=>{
             id: "03",
             title: "Manufacturing Giant Boosts Lead Generation with VR Business Solutions Account-Based Marketing Strategy",
             description: "A leading manufacturing company partnered with VR Business Solutions to penetrate key accounts and generate high-quality leads. Our tailored Account-Based Marketing (ABM) strategy delivered exceptional results, driving engagement and conversions from target enterprises.",
-            img: "/cs3.png",
+            img: "/study1.png",
             buttonText: "Know More",
             link: "/casestudy/cs3"
         }

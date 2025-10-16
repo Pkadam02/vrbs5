@@ -216,25 +216,27 @@ export default function Services() {
           </Link>
 
           {/* Card 6 */}
-          <Link href="/Service#s6">
-            <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card min-h-[460px]">
-              <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-70 overflow-hidden">
-                <img
-                  src="software-dev.png"
-                  alt="Software Development"
-                  className="w-full h-full max-w-[200px] max-h-[150px] object-cover"
-                />
-              </div>
-              <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-2 sm:mb-3">
-                Software Development
-              </h3>
-              <p className="text-gray-600 text-sm sm:text-base overflow-y-auto max-h-[120px]">
-                Our team delivers custom, scalable, and secure software solutions
-                — from modern web apps to enterprise systems that optimize your
-                workflows and enable digital transformation.
-              </p>
-            </div>
-          </Link>
+          <Link href="/Service#s12">
+          <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card min-h-[460px]">
+            <div className="bg-yellow-200 rounded-2xl mb-5 flex items-center justify-center h-48 sm:h-65 overflow-hidden">
+                  <img
+                    src="/CTA.png"
+                    alt="Onshore and Offshore Services"
+                    className="w-full h-full max-w-[180px] max-h-[180px] object-cover"
+                  />
+                </div>
+                <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-3">
+                  Onshore and Offshore Services
+                </h3>
+                <p className="text-gray-600 text-sm sm:text-base overflow-y-auto max-h-[120px]">
+                   Our onshore solutions ensure seamless
+                  collaboratiocontextualize within your local market, while offshore services provide
+                  access to global talent and cost advantages—delivering optimized,
+                  sustainable growth.
+                </p>
+                </div>
+            </Link>
+          
         </div>
 
         {/* Button */}
@@ -358,26 +360,7 @@ export default function Services() {
             </Link>
 
             {/* Onshore and Offshore Services */}
-            <Link href="/Service#s12">
-              <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-6 text-center service-card extra-service-card min-h-[460px]">
-                <div className="bg-yellow-200 rounded-2xl mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
-                  <img
-                    src="/CTA.png"
-                    alt="Onshore and Offshore Services"
-                    className="w-full h-full max-w-[200px] max-h-[200px] object-cover rounded-2xl"
-                  />
-                </div>
-                <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-3">
-                  Onshore and Offshore Services
-                </h3>
-                <p className="text-gray-600 text-sm sm:text-base overflow-y-auto max-h-[120px]">
-                   Our onshore solutions ensure seamless
-                  collaboratiocontextualize within your local market, while offshore services provide
-                  access to global talent and cost advantages—delivering optimized,
-                  sustainable growth.
-                </p>
-                </div>
-            </Link>
+            
           </div>
         )}
 

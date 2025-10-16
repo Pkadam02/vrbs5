@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link'; // Import Link component
+import { Phone } from 'lucide-react';
 
 export default function Navbar({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen: (isOpen: boolean) => void }) {
   console.log("Navbar isOpen: ", isOpen);
@@ -73,9 +74,16 @@ export default function Navbar({ isOpen, setIsOpen }: { isOpen: boolean; setIsOp
 </ul>
 
       <div className="hidden lg:flex items-center text-[var(--hcolor)] gap-4 lg:mr-20 text-sm">
-        +91 7524963552 <br />
-        +91 8585856595
-      </div>
+     
+                  <Phone className="h-6 w-6 text-blue-900 mr-4" />
+                  <div>
+              
+                    <p className="text-gray-800 font-medium">+91 8596374156 <br />
+                    +91 9856321475
+                    </p>
+                  </div>
+                </div>
+
 
       {/* Mobile menu button */}
       <div className="lg:hidden flex items-center z-[100]">
@@ -106,8 +114,13 @@ export default function Navbar({ isOpen, setIsOpen }: { isOpen: boolean; setIsOp
         </ul>
         <div className="flex flex-col space-y-4 mt-8 items-center text-[var(--hcolor)] px-4">
         <div className=" md:flex items-center gap-4 right-20 text-base">
-        +91 7524963552 <br />
-        +91 8585856595
+        <Phone className="h-6 w-6 text-blue-900 mr-4" />
+                  <div>
+              
+                    <p className="text-gray-800 font-medium">+91 8596374156 <br />
+                    +91 9856321475
+                    </p>
+                  </div>
       </div>
         </div>
       </div>

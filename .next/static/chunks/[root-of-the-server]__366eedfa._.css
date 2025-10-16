@@ -1091,6 +1091,14 @@
     min-height: 90vh;
   }
 
+  .min-h-\[430px\] {
+    min-height: 430px;
+  }
+
+  .min-h-\[450px\] {
+    min-height: 450px;
+  }
+
   .min-h-\[460px\] {
     min-height: 460px;
   }
@@ -2681,6 +2689,24 @@
   @media (min-width: 40rem) {
     .sm\:h-60 {
       height: calc(var(--spacing) * 60);
+    }
+  }
+
+  @media (min-width: 40rem) {
+    .sm\:h-63 {
+      height: calc(var(--spacing) * 63);
+    }
+  }
+
+  @media (min-width: 40rem) {
+    .sm\:h-64 {
+      height: calc(var(--spacing) * 64);
+    }
+  }
+
+  @media (min-width: 40rem) {
+    .sm\:h-65 {
+      height: calc(var(--spacing) * 65);
     }
   }
 
