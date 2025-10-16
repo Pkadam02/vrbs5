@@ -102,7 +102,7 @@ const CaseStudies: React.FC = () => {
             Case Study
           </p>
         <h2 className="text-3xl sm:text-4xl font-bold text-blue-900 mt-1 sm:mt-2 text-center mb-10 md:mb-16 casestudy-section-title">
-          Our Case Studies
+        How We Make a Difference
         </h2>
         {caseStudies.map((study, index) => (
           <div
