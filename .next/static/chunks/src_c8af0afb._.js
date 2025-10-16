@@ -2777,7 +2777,7 @@ const CaseStudies = ()=>{
             id: "01",
             title: "IT Company Accelerates Webinar Registrations with VR Business Solutions Content Syndication Strategy",
             description: "An IT enterprise partnered with VR Business Solutions to execute a webinar promotion campaign that attracted the right decision-makers and generated measurable ROI. Within just 30 days, the campaign successfully delivered 700+ high-quality webinar registrations.",
-            img: "study.png",
+            img: "study2.png",
             buttonText: "Know More",
             link: "/casestudy/cs1"
         },
