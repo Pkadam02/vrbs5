@@ -54,7 +54,7 @@ const Process: React.FC = () => {
   return (
     <section id="methodology" className="bg-white relative overflow-hidden bg-white
         flex flex-col md:flex-row items-center justify-between
-        px-0 sm:px-8 md:px-12 lg:px-10 lg:py-52 py-50
+        px-0 sm:px-8 md:px-12 lg:px-10 lg:py-2 py-2
         w-full min-h-[90vh] md:py-60 bg-white data-scroll-section" >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-10 py-20 items-start">
         

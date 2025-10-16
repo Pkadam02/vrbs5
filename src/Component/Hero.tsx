@@ -6,82 +6,81 @@ import gsap from "gsap";
 
 export default function HeroSection() {
   useEffect(() => {
-    // GSAP Animation on mount
+    // GSAP animations
     gsap.fromTo(
       ".hero-text",
-      { opacity: 800, y: 500 },
-      { opacity: 1, y: 5, duration: 1.5, ease: "power3.out" }
+      { opacity: 0, y: 50 },
+      { opacity: 1, y: 0, duration: 1.2, ease: "power3.out" }
     );
 
     gsap.fromTo(
       ".hero-image",
-      { opacity: 90, x: 900 },
-      { opacity: 1, x: 0, duration: 1.5, ease: "power3.out", delay: 0.3 }
+      { opacity: 0, x: 100 },
+      { opacity: 1, x: 0, duration: 1.2, ease: "power3.out", delay: 0.2 }
     );
 
     gsap.fromTo(
       ".hero-buttons",
-      { opacity: 0, y: -900 }, // Animate from above
-      { opacity: 1, y: 0, duration: 1.2, ease: "power3.out", delay: 1.2 } // Adjusted delay
+      { opacity: 0, y: -20 },
+      { opacity: 1, y: 0, duration: 1, ease: "power3.out", delay: 1.0 }
     );
 
     gsap.fromTo(
-      ".hero-word",
+      ".hero-letter",
       { opacity: 0, y: 20 },
-      { opacity: 1, y: 0, duration: 0.5, stagger: 0.1, ease: "power2.out", delay: 0.2 }
+      { opacity: 1, y: 0, duration: 0.6, stagger: 0.02, ease: "power2.out", delay: 0.3 }
     );
 
     gsap.fromTo(
       ".hero-description",
-      { opacity: 0, x: -500 },
-      { opacity: 1, x: 0, duration: 1, ease: "power3.out", delay: 1.0 }
+      { opacity: 0, x: -40 },
+      { opacity: 1, x: 0, duration: 0.9, ease: "power3.out", delay: 1.0 }
     );
   }, []);
+
+  // Helper: render words that wrap normally on small screens
+  const renderLettersByWord = (text: string) =>
+    text.split(" ").map((word, wordIdx) => (
+      <span key={wordIdx} className="inline-block mr-[0.4rem]">
+        {word.split("").map((char, idx) => (
+          <span key={idx} className="hero-letter opacity-0 inline-block">
+            <span
+              className="inline-block transition-transform duration-300 ease-in-out transform-gpu hover:scale-125 focus:scale-125"
+              tabIndex={0}
+            >
+              {char}
+            </span>
+          </span>
+        ))}
+      </span>
+    ));
 
   return (
     <section
       id="hero"
-      className="scroll-mt-24
-        relative overflow-hidden bg-[#FFD700] xl:
+      className="
+        scroll-mt-24 relative overflow-hidden bg-[#FFD700]
         flex flex-col md:flex-row items-center justify-between
         px-4 sm:px-8 md:px-12 lg:px-20 py-20
-        xl:w-full min-h-[90vh]
+        w-full min-h-[90vh]
       "
     >
       {/* ===== Left Text Section ===== */}
-      <div className=" w-full md:w-1/2 flex flex-col justify-center items-center md:items-start text-center md:text-left z-10">
+      <div className="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start text-center md:text-left z-10">
         <h1
           className="
-            hero-text
-            font-the-bold-font font-bold 
-            text-[3.7rem] sm:text-5xl md:text-5xl lg:text-6xl xl:text-7xl
-            leading-[1.1]
-            text-[#1C1C57]
+            hero-text font-the-bold-font font-bold 
+            text-[3.4rem] sm:text-5xl md:text-5xl lg:text-6xl xl:text-7xl
+            leading-[1.15] text-[#1C1C57]
           "
         >
-          {"We Generate ".split(" ").map((word, index) => (
-            <span key={index} className="hero-word opacity-0">
-              {word + " "}
-            </span>
-          ))}
+          {renderLettersByWord("We  Generate")}
           <br />
-          {"Leads ".split(" ").map((word, index) => (
-            <span key={index} className="hero-word opacity-0 inline-block">
-              {word + " "}
-            </span>
-          ))}
+          {renderLettersByWord("Leads")}
           <br />
-          {"Through True ".split(" ").map((word, index) => (
-            <span key={index} className="hero-word opacity-0">
-              {word + " "}
-            </span>
-          ))}
-          <br className="mb-4"/>
-          {"Intent".split(" ").map((word, index) => (
-            <span key={index} className="hero-word opacity-0 inline-block">
-              {word + " "}
-            </span>
-          ))}
+          {renderLettersByWord("Through  True")}
+          <br className="mb-4" />
+          {renderLettersByWord("Intent")}
         </h1>
 
         <p className="hero-description text-base sm:text-lg text-gray-700 mt-6 mb-8 max-w-md mx-auto md:mx-0">
@@ -90,21 +89,16 @@ export default function HeroSection() {
 
         {/* ===== CTA Buttons ===== */}
         <div className="hero-buttons flex flex-col sm:flex-row gap-4 justify-center md:justify-start w-full sm:w-auto">
-        <Link
-  href="/contact"
-  className="relative overflow-hidden px-8 py-3 font-semibold text-white bg-[#1C1C57] border-2 border-[#1C1C57] w-full sm:w-auto text-center rounded-md group transition-all duration-500"
->
-  {/* Text */}
-  <span className="relative z-10 transition-colors duration-500 group-hover:text-black">
-    Book a Free Growth Call
-  </span>
+          <Link
+            href="/contact"
+            className="relative overflow-hidden px-8 py-3 font-semibold text-white bg-[#1C1C57] border-2 border-[#1C1C57] w-full sm:w-auto text-center rounded-md group transition-all duration-500"
+          >
+            <span className="relative z-10 transition-colors duration-500 group-hover:text-black">
+              Book a Free Growth Call
+            </span>
 
-  {/* Animated wave */}
-  <span className="absolute inset-0 bg-yellow-300 top-full group-hover:top-0 transition-all duration-700 ease-[cubic-bezier(0.19,1,0.22,1)] rounded-t-[100%]"></span>
-</Link>
-
-
-
+            <span className="absolute inset-0 bg-yellow-300 top-full group-hover:top-0 transition-all duration-700 ease-in-out rounded-t-[100%]"></span>
+          </Link>
         </div>
       </div>
 

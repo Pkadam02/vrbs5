@@ -103,7 +103,7 @@ export default function Services() {
   return (
     <section
     id="services"
-    className="scroll-mt-24 relative overflow-hidden bg-white flex flex-col items-center justify-center px-4 sm:px-8 md:px-12 lg:px-20 py-25 md:py-15 min-h-[90vh]">
+    className="scroll-mt-24 relative overflow-hidden bg-white flex flex-col items-center justify-center px-4 sm:px-8 md:px-12 lg:px-20 py-25 md:py-0 min-h-[90vh] ">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 w-full">
         {/* Section Title */}
         <div className="text-center mb-10 md:mb-16">

@@ -7,11 +7,11 @@ export default function S10() {
   return (
     <section
       id="s10"
-      className="relative bg-white flex flex-col-reverse md:flex-row md:flex-row items-center justify-between
+      className="relative bg-white flex flex-col md:flex-row items-center justify-between
       px-6 sm:px-12 md:px-16 lg:px-20 py-24 lg:py-25
       w-full min-h-[90vh]"
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-center justify-between gap-12 md:gap-16">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-12 md:gap-16">
         
         {/* Left Text Section */}
         <div className="space-y-6 w-full md:w-1/2">
@@ -24,12 +24,7 @@ export default function S10() {
           </p>
 
           {/* CTA Button */}
-          <Link
-            href="/contact"
-            className="inline-block px-6 py-3 bg-yellow-400 text-gray-900 font-semibold rounded-xl shadow hover:bg-yellow-500 transition-all duration-300"
-          >
-            Book Free Growth Call
-          </Link>
+          
         </div>
 
         {/* Right Image Section */}

@@ -1,10 +1,38 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import CaseStudyForm from "@/Component/CaseStudyForm"; // Import the new component
 
 export default function CS2Page() {
+  const [isFormOpen, setIsFormOpen] = useState(false);
+
+  const handleSubmit = async (data: { name: string; contact: string; email: string }) => {
+    console.log("Form submitted:", data);
+    try {
+      const response = await fetch('/api/send-case-study', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ ...data, caseStudyId: 'cs2' }), // Add case study ID
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        alert(result.message);
+        setIsFormOpen(false);
+      } else {
+        alert(`Error: ${result.message}`);
+      }
+    } catch (error) {
+      console.error('Failed to send form data:', error);
+      alert('An error occurred while submitting the form.');
+    }
+  };
+
   return (
     <section
       id="CS2"
@@ -59,13 +87,12 @@ export default function CS2Page() {
             </div>
 
             {/* Download Button */}
-            <a
-              href="/Case_Study_2.docx"
-              download="Case_Study_2.docx"
+            <button
+              onClick={() => setIsFormOpen(true)}
               className="mt-6 inline-block px-6 py-3 bg-gray-800 text-white font-semibold rounded-xl shadow hover:bg-gray-700 transition-all duration-300"
             >
               Get Full Case Study
-            </a>
+            </button>
           </div>
 
         </div>
@@ -84,6 +111,11 @@ export default function CS2Page() {
           </Link>
         </div>
       </div>
+      <CaseStudyForm
+        isOpen={isFormOpen}
+        onClose={() => setIsFormOpen(false)}
+        onSubmit={handleSubmit}
+      />
     </section>
   );
 }

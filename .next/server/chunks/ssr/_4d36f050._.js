@@ -666,7 +666,7 @@ function S12() {
         id: "s12",
         className: "py-16 md:py-24 bg-white w-full min-h-[90vh]",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "container mx-auto px-4 sm:px-8 lg:px-10 flex flex-col-reverse md:flex-row items-center gap-10 md:gap-16",
+            className: "container mx-auto px-4 sm:px-8 lg:px-10 flex flex-col md:flex-row items-center gap-10 md:gap-16",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "space-y-6 w-full md:w-1/2 lg:pl-12",
@@ -677,7 +677,7 @@ function S12() {
                                 "Onshore and ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/src/Component/S12.tsx",
-                                    lineNumber: 18,
+                                    lineNumber: 17,
                                     columnNumber: 25
                                 }, this),
                                 " ",
@@ -686,13 +686,13 @@ function S12() {
                                     children: "Generation"
                                 }, void 0, false, {
                                     fileName: "[project]/src/Component/S12.tsx",
-                                    lineNumber: 18,
+                                    lineNumber: 17,
                                     columnNumber: 32
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/Component/S12.tsx",
-                            lineNumber: 17,
+                            lineNumber: 16,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -700,13 +700,13 @@ function S12() {
                             children: "We help businesses achieve efficiency and scalability through both onshore and offshore services. Our onshore solutions ensure seamless collaboration within your local market, offering cultural alignment, compliance, and real-time support. At the same time, our offshore services provide access to global talent, cost advantages, and round-the-clock operations. By combining the strengths of onshore and offshore models, we deliver tailored outsourcing strategies that reduce costs, optimize processes, and drive sustainable growth."
                         }, void 0, false, {
                             fileName: "[project]/src/Component/S12.tsx",
-                            lineNumber: 21,
+                            lineNumber: 20,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/Component/S12.tsx",
-                    lineNumber: 16,
+                    lineNumber: 15,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -717,23 +717,23 @@ function S12() {
                         className: "w-full h-full object-cover rounded-2xl"
                     }, void 0, false, {
                         fileName: "[project]/src/Component/S12.tsx",
-                        lineNumber: 28,
+                        lineNumber: 27,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/Component/S12.tsx",
-                    lineNumber: 27,
+                    lineNumber: 26,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/Component/S12.tsx",
-            lineNumber: 13,
+            lineNumber: 12,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/Component/S12.tsx",
-        lineNumber: 9,
+        lineNumber: 8,
         columnNumber: 5
     }, this);
 }
@@ -1158,16 +1158,14 @@ __turbopack_context__.s([
     ()=>S10
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 "use client";
-;
 ;
 function S10() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "s10",
-        className: "relative bg-white flex flex-col-reverse md:flex-row md:flex-row items-center justify-between   px-6 sm:px-12 md:px-16 lg:px-20 py-24 lg:py-25   w-full min-h-[90vh]",
+        className: "relative bg-white flex flex-col md:flex-row items-center justify-between   px-6 sm:px-12 md:px-16 lg:px-20 py-24 lg:py-25   w-full min-h-[90vh]",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-center justify-between gap-12 md:gap-16",
+            className: "container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-12 md:gap-16",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "space-y-6 w-full md:w-1/2",
@@ -1197,15 +1195,6 @@ function S10() {
                             fileName: "[project]/src/Component/S10.tsx",
                             lineNumber: 22,
                             columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/contact",
-                            className: "inline-block px-6 py-3 bg-yellow-400 text-gray-900 font-semibold rounded-xl shadow hover:bg-yellow-500 transition-all duration-300",
-                            children: "Book Free Growth Call"
-                        }, void 0, false, {
-                            fileName: "[project]/src/Component/S10.tsx",
-                            lineNumber: 27,
-                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
@@ -1223,17 +1212,17 @@ function S10() {
                             className: "w-full h-full object-cover"
                         }, void 0, false, {
                             fileName: "[project]/src/Component/S10.tsx",
-                            lineNumber: 38,
+                            lineNumber: 33,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/Component/S10.tsx",
-                        lineNumber: 37,
+                        lineNumber: 32,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/Component/S10.tsx",
-                    lineNumber: 36,
+                    lineNumber: 31,
                     columnNumber: 9
                 }, this)
             ]

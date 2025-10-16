@@ -3,15 +3,12 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import CaseStudyForm from "@/Component/CaseStudyForm"; // Import the new component
 
 export default function CS3Page() {
-  const [showForm, setShowForm] = useState(false);
+  const [isFormOpen, setIsFormOpen] = useState(false);
 
-  const handleViewCaseStudyClick = () => {
-    setShowForm(true);
-  };
-
-  const handleFormSubmit = async (data: { name: string; contact: string; email: string }) => {
+  const handleSubmit = async (data: { name: string; contact: string; email: string }) => {
     console.log("Form submitted:", data);
     try {
       const response = await fetch('/api/send-case-study', {
@@ -19,14 +16,14 @@ export default function CS3Page() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(data),
+        body: JSON.stringify({ ...data, caseStudyId: 'cs3' }), // Add case study ID
       });
 
       const result = await response.json();
 
       if (response.ok) {
         alert(result.message);
-        setShowForm(false);
+        setIsFormOpen(false);
       } else {
         alert(`Error: ${result.message}`);
       }
@@ -34,10 +31,6 @@ export default function CS3Page() {
       console.error('Failed to send form data:', error);
       alert('An error occurred while submitting the form.');
     }
-  };
-
-  const handleCloseForm = () => {
-    setShowForm(false);
   };
 
   return (
@@ -98,7 +91,7 @@ export default function CS3Page() {
             {/* View Case Study Button */}
             <button
               type="button"
-              onClick={handleViewCaseStudyClick}
+              onClick={() => setIsFormOpen(true)}
               className="mt-6 inline-block px-6 py-3 bg-gray-800 text-white font-semibold rounded-xl shadow hover:bg-gray-700 transition-all duration-300"
             >
               Get Full Case Study
@@ -122,7 +115,11 @@ export default function CS3Page() {
       </div>
 
       {/* Case Study Form */}
-     
+      <CaseStudyForm
+        isOpen={isFormOpen}
+        onClose={() => setIsFormOpen(false)}
+        onSubmit={handleSubmit}
+      />
     </section>
   );
 }

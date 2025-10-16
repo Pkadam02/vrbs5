@@ -2,7 +2,6 @@
 
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function S12() {
   return (
@@ -10,7 +9,7 @@ export default function S12() {
       id="s12"
       className="py-16 md:py-24 bg-white w-full min-h-[90vh]"
     >
-      <div className="container mx-auto px-4 sm:px-8 lg:px-10 flex flex-col-reverse md:flex-row items-center gap-10 md:gap-16">
+      <div className="container mx-auto px-4 sm:px-8 lg:px-10 flex flex-col md:flex-row items-center gap-10 md:gap-16">
         
         {/* Left Text */}
         <div className="space-y-6 w-full md:w-1/2 lg:pl-12">
