@@ -112,17 +112,16 @@ export default function Navbar({ isOpen, setIsOpen }: { isOpen: boolean; setIsOp
           <li><Link href="/#casestudy" onClick={() => setIsOpen(false)} className="hover:text-blue-700 transition-colors duration-200 text-[#1C1C57] text-base">Case Study</Link></li>
           <li><Link href="/contact" onClick={() => setIsOpen(false)} className="hover:text-blue-700 transition-colors duration-200 text-[#1C1C57] text-base">Contact Us</Link></li>
         </ul>
-        <div className="flex flex-col space-y-4 mt-8 items-center text-[var(--hcolor)] px-4">
-        <div className=" md:flex items-center gap-4 right-20 text-base">
-        <Phone className="h-6 w-6 text-blue-900 mr-4" />
-                  <div>
-              
+        <div className="lg:flex items-center text-blue-300 gap-4 lg:mr-20 text-sm">
+     
+                  
+                  <div className='flex justify-center items-center text-center'>
+                  <Phone className="h-6 w-6 text-blue-900 mr-4" />
                     <p className="text-gray-800 font-medium">+91 8596374156 <br />
                     +91 9856321475
                     </p>
                   </div>
-      </div>
-        </div>
+                </div>
       </div>
 
       {/* Overlay */}
