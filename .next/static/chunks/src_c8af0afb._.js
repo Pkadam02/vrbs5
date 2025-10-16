@@ -2793,7 +2793,7 @@ const CaseStudies = ()=>{
             id: "03",
             title: "Manufacturing Giant Boosts Lead Generation with VR Business Solutions Account-Based Marketing Strategy",
             description: "A leading manufacturing company partnered with VR Business Solutions to penetrate key accounts and generate high-quality leads. Our tailored Account-Based Marketing (ABM) strategy delivered exceptional results, driving engagement and conversions from target enterprises.",
-            img: "/Study1.png",
+            img: "/cs3.png",
             buttonText: "Know More",
             link: "/casestudy/cs3"
         }
