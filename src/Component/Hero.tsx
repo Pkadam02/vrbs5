@@ -59,7 +59,7 @@ export default function HeroSection() {
     <section
       id="hero"
       className="
-        scroll-mt-24 relative overflow-hidden bg-[#FFD700]
+       relative overflow-hidden bg-[#FFD700]
         flex flex-col md:flex-row items-center justify-between
         px-4 sm:px-8 md:px-12 lg:px-20 py-20
         w-full min-h-[90vh]

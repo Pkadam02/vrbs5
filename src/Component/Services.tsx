@@ -120,11 +120,11 @@ export default function Services() {
           {/* Card 1 */}
          <Link href="/Service#s1">
             <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card min-h-[460px]">
-              <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
+              <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-70 overflow-hidden">
                 <img
                   src="/demand-generation.png"
                   alt="Demand Generation"
-                  className="w-full h-full max-w-[180px] max-h-[180px] sm:max-w-[220px] sm:max-h-[220px] object-cover rounded-2xl"
+                  className="w-full h-full max-w-[180px] max-h-[180px] sm:max-w-[220px] sm:max-h-[320px] object-cover rounded-2xl"
                 />
               </div>
               <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-2 sm:mb-3">
@@ -138,8 +138,8 @@ export default function Services() {
             </div>
           </Link>
           <Link href="/Service#s2">
-            <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card min-h-[460px]">
-              <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
+            <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card min-h-[485px]">
+              <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-70 overflow-hidden">
                 <img
                   src="/content-syndication.png"
                   alt="Content Syndication"
@@ -157,7 +157,7 @@ export default function Services() {
           </Link>
           <Link href="/Service#s3">
             <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card min-h-[460px]">
-              <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
+              <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-70 overflow-hidden">
                 <img
                   src="/buyer-intent.png"
                   alt="Buyer Intent Leads"
@@ -175,8 +175,8 @@ export default function Services() {
             </div>
           </Link>
           <Link href="/Service#s4">
-            <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card min-h-[460px]">
-              <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
+            <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card min-h-[485px]">
+              <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-70 overflow-hidden">
                 <img
                   src="webinar.png"
                   alt="Event & Webinar Registrations"
@@ -197,7 +197,7 @@ export default function Services() {
           {/* Card 5 */}
           <Link href="/Service#s5">
             <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card min-h-[460px]">
-              <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
+              <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-70 overflow-hidden">
                 <img
                   src="/abm.png"
                   alt="Account-Based Marketing"
@@ -218,7 +218,7 @@ export default function Services() {
           {/* Card 6 */}
           <Link href="/Service#s6">
             <div className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 sm:p-6 text-center service-card min-h-[460px]">
-              <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-60 overflow-hidden">
+              <div className="bg-yellow-200 rounded-2xl mb-4 sm:mb-5 flex items-center justify-center h-48 sm:h-70 overflow-hidden">
                 <img
                   src="software-dev.png"
                   alt="Software Development"

@@ -76,7 +76,7 @@ export default function About() {
     <section
         ref={sectionRef}
         id="aboutus"
-        className="scroll-mt-24 relative overflow-hidden bg-white flex flex-col md:flex-row items-center justify-between px-0 sm:px-8 md:px-12 lg:px-10 py-35 w-full min-h-[90vh] md:py-50 lg:py-20 bg-white"
+        className=" relative overflow-hidden bg-white flex flex-col md:flex-row items-center justify-between px-0 sm:px-8 md:px-12 lg:px-10 py-35 w-full min-h-[90vh] md:py-50 lg:py-20 bg-white"
         data-scroll-section
       >
       <div className="container mx-auto px-4 sm:px-10 lg:px-8">

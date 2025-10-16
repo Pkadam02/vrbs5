@@ -1,6 +1,7 @@
 {
   "/Service/page": "app/Service/page.js",
   "/_not-found/page": "app/_not-found/page.js",
+  "/aboutus/page": "app/aboutus/page.js",
   "/api/send-case-study/route": "app/api/send-case-study/route.js",
   "/casestudy/cs1/page": "app/casestudy/cs1/page.js",
   "/casestudy/cs2/page": "app/casestudy/cs2/page.js",

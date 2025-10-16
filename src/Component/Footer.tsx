@@ -74,7 +74,7 @@ export default function Footer() {
 
           {/* Hawaii Main Office */}
           <div className="text-center sm:text-left footer-column">
-            <h3 className="text-lg font-bold mb-4">Hawaii Main Office</h3>
+            <h3 className="text-lg font-bold mb-4">Office</h3>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>66 West Flagler Street - Suite 900</li>
               <li>Miami, FL 33130, USA</li>
@@ -94,7 +94,7 @@ export default function Footer() {
 
           {/* Expertise */}
           <div className="text-center sm:text-left footer-column">
-            <h3 className="text-lg font-bold mb-4">Expertise</h3>
+            <h3 className="text-lg font-bold mb-4">Resources</h3>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>
                 <Link href="/" className="hover:text-white transition-colors duration-200">
@@ -123,19 +123,41 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-
-          {/* Services */}
           <div className="text-center sm:text-left footer-column">
             <h3 className="text-lg font-bold mb-4">Services</h3>
             <ul className="space-y-2 text-gray-400 text-sm">
-              <li className="hover:text-white transition-colors cursor-pointer">Software Development</li>
-              <li className="hover:text-white transition-colors cursor-pointer">Demand Generation</li>
-              <li className="hover:text-white transition-colors cursor-pointer">Appointment Generation</li>
-              <li className="hover:text-white transition-colors cursor-pointer">Content Syndication</li>
-              <li className="hover:text-white transition-colors cursor-pointer">Event & Webinar Registration</li>
+              <li>
+                <Link href="/Service#s6" className="hover:text-white transition-colors duration-200">
+                Software Development
+                </Link>
+              </li>
+              <li>
+                <Link href="/Service#s1" className="hover:text-white transition-colors duration-200">
+                Demand Generation
+                </Link>
+              </li>
+              <li>
+                <Link href="/Service#s10" className="hover:text-white transition-colors duration-200">
+                Appointment Generation
+                </Link>
+              </li>
+              <li>
+                <Link href="/Service#s2" className="hover:text-white transition-colors duration-200">
+                Content Syndication
+                </Link>
+              </li>
+              <li>
+                <Link href="/Service#s4" className="hover:text-white transition-colors duration-200">
+                Event & Webinar Registration
+                </Link>
+              </li>
             </ul>
           </div>
+
+          {/* Services */}
+          
         </div>
+        
 
         {/* Copyright */}
         <div className="border-t border-gray-600 mt-12 pt-6 text-center text-gray-400 text-sm">
