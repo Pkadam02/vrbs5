@@ -2,7 +2,7 @@
 "use client";
 
 import { useState } from "react";
-import Navbar from "../Component/Navbar";
+import Navbar from "@/Component/Navbar";
 import Footer from "@/Component/Footer";
 import CustomCursor from "@/Component/CustomCursor";
 
