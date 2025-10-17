@@ -17,7 +17,7 @@ export default function ClientLayoutWrapper({
       <CustomCursor />
       <Navbar isOpen={isOpen} setIsOpen={setIsOpen} /> {/* Render Navbar */}
       {children}
-      <Footer />
+      <Footer setIsOpen={setIsOpen} />
     </>
   );
 }

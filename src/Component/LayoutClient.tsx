@@ -14,7 +14,7 @@ export default function LayoutClient({ children }: { children: React.ReactNode }
       <CustomCursor />
       <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
       {children}
-      <Footer />
+      <Footer setIsOpen={setIsOpen} />
     </>
   );
 }
