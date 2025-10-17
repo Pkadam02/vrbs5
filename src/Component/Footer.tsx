@@ -6,7 +6,11 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import Link from "next/link";
 import { useInView } from "react-intersection-observer"; // <-- import
 
-export default function Footer() {
+interface FooterProps {
+  setIsOpen: (isOpen: boolean) => void;
+}
+
+export default function Footer({ setIsOpen }: FooterProps) {
   const footerRef = useRef<HTMLDivElement>(null);
   const [inViewRef, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
 
@@ -69,7 +73,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 md:gap-12">
           {/* Logo and Contact Info */}
           <div className="flex flex-col items-center sm:items-start text-center sm:text-left col-span-1 sm:col-span-2 lg:col-span-1 mb-8 sm:mb-0 footer-logo-contact">
-            <img src="title2.png" alt="VR Business Solutions" className="h-12 mb-4" />
+          <Link href="/"> {/* Use Link component */}
+          <img src="title2.png" alt="VR Logo" className="h-12" />
+        </Link>
           </div>
           
 
